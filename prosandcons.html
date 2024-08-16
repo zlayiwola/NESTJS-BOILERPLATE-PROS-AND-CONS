@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boilerplate Templates: Pros and Cons</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="HNG Boilerplate-Logo.png" alt="HNG Boilerplate Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">APIs</a></li>
+                <li><a href="#" style="color: #f88d2b">Templates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <ul>
+                <li><a href="#introduction" style="color: #f88d2b">Introduction</a></li>
+                <li><a href="#nestjs">NestJS Boilerplate</a></li>
+                <li><a href="#express">Express.js Boilerplate</a></li>
+                <li><a href="#nextjs">NextJS Boilerplate</a></li>
+                <li><a href="#django">Django Boilerplate</a></li>
+                <li><a href="#ruby">Ruby on Rails Boilerplate</a></li>
+                <li><a href="#laravel">Laravel Boilerplate</a></li>
+                <li><a href="#flask">Flask Boilerplate</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </aside>
+
+        <section class="full">
+            <h1 style="font-weight: bold;">Boilerplate Templates: Pros and Cons of Top Boilerplates</h1>
+            <p>Choosing the right boilerplate template for your next project.</p>
+            <hr>
+            
+            <section id="introduction">
+                <h3>Introduction</h3>
+                <p>In this comparison, we will explore the strengths and weaknesses of several popular framework boilerplates, including Express.js, NestJS, NextJS, Django, Spring Boot, Ruby on Rails, Laravel, and Flask, to help you select the best boilerplate.</p>
+            </section>
+
+            <section id="nestjs">
+                <h3>1. NestJS Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Modular Architecture: Supports a modular architecture that enables developers to tidy up code in an efficient manner, making it easier to scale applications.</li>
+                    <li>TypeScript: Built with TypeScript which offers great typing support with autocompletion and helps to ensure productivity for the developer and fewer errors during coding.</li>
+                    <li>Extensive Features: Comes loaded with many built-in functionalities including Dependency Injection, validators, middleware, thus making it relevant for enterprise-scale apps.</li>
+                    <li>GraphQL Support: Provides native support for GraphQL which is known as a powerful query language that gives more flexibility when dealing with a scalable API.</li>
+                    <li>Scalability: Designed for developing scalable applications; supports microservice architecture that supports asynchronous programming or WebSocket integration.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Learning Curve: The framework's extensive feature set and TypeScript integration might present a steep learning curve, especially for developers new to the ecosystem.</li>
+                    <li>Setup Time: Due to its modular structure and extensive features, the setup process takes some time compared to more lightweight frameworks.</li>
+                </ul>
+            </section>
+
+            <section id="express">
+                <h3>2. Express.js Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Simplicity: It is a very simple application, allowing developers to work easily and get started without any complex setup.</li>
+                    <li>Flexibility: Due to its simplicity and lack of opinionated structure, it allows developers to create applications with their unique architecture. It is easy to extend and customize.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Lack of Structure: Unlike NestJS, Express.js does not enforce any particular way that code should be structured. However, in bigger projects, this may lead to an untidy and unmanageable code base when difficult to scale.</li>
+                    <li>Manual Configuration: Developers need to do some manual setups such as dependency injection, authentication, and validation, which are built into NestJS.</li>
+                    <li>Scalability: While suitable for small to medium-sized projects, when it comes to large-scale applications that require additional tooling and architecture support, Express.js is less effective.</li>
+                </ul>
+            </section>
+
+            <section id="nextjs">
+                <h3>3. NextJS Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Full Stack Capabilities: Combines the power of React on the frontend with server-side rendering, making it ideal for building full-stack applications.</li>
+                    <li>SEO Optimization: Server-side rendering enables faster load times and the best SEO support compared to traditional single-page applications (SPAs).</li>
+                    <li>Static Site Generation (SSG): Provides SSG support which greatly improves performance and load times for static pages.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Less Backend Flexibility: NextJS is more focused on frontend and server-side rendering than on the backend like NestJS when it comes to developing complex backend architectures.</li>
+                    <li>Complexity: Combining both frontend and backend in a single framework can be complicated for project structure.</li>
+                    <li>TypeScript Support: While NextJS may support TypeScript, it may be less deeply integrated or intuitive compared to that of NestJS.</li>
+                </ul>
+            </section>
+
+            <section id="django">
+                <h3>4. Django Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>“Batteries-included” Framework: Django comes with numerous built-in features such as ORM, authentication, admin panel, site indexing, and bulk development.</li>
+                    <li>Scalability: Suitable for large-scale projects due to its strong focus on security, caching mechanisms, and scalability tools.</li>
+                    <li>Security: Django has built-in security features like SQL injection prevention and cross-site scripting among others.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Learning Curve: Requires a solid understanding of Java and the Spring ecosystem, which can be challenging for beginners.</li>
+                    <li>Complex Configuration: In comparison to NestJS’s TypeScript-based frameworks like NestJS, boilerplate code and configurations are often verbose.</li>
+                    <li>Performance: The heavy reliance on Java can cause performance overhead in comparison to more lightweight NestJS.</li>
+                </ul>
+            </section>
+
+            <section id="ruby">
+                <h3>5. Ruby on Rails Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Convention Over Configuration: Encourages best practices with its preset settings, making it easy to start projects quickly and with less decision-making.</li>
+                    <li>Rapid Development: Rails framework is built for rapid application development, with built-in scaffolding, CRUD, and routing.</li>
+                    <li>Active Community: Strong community support with lots of libraries and resources available.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Performance: May lack speed compared to more modern frameworks like NestJS, especially in large-scale applications.</li>
+                    <li>Scalability: It can be used for small or medium-scale projects but may need significant re-engineering to scale for larger, complex applications.</li>
+                    <li>Legacy: Requires knowledge of Ruby, which may be unfamiliar to developers who primarily work with JavaScript/TypeScript.</li>
+                </ul>
+            </section>
+
+            <section id="laravel">
+                <h3>6. Laravel Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Elegant Syntax: Is known for its clear and expressive syntax which aids developers in building applications faster.</li>
+                    <li>Comprehensive Features: Comes with built-in features like routing, authentication, and ORM (Eloquent), enabling rapid development.</li>
+                    <li>Community Support: Large community with a wide range of tutorials, packages, and other available resources.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Performance: May not perform as well as NestJS in situations that demand heavy computation or real-time applications.</li>
+                    <li>Legacy: Laravel’s architecture makes use of old paradigms such as MVC, which may not be the best fit for modern applications.</li>
+                    <li>Scalability: Laravel’s structure and design are less conducive to scalable applications when compared to more modern frameworks like NestJS.</li>
+                </ul>
+            </section>
+
+            <section id="flask">
+                <h3>7. Flask Boilerplate</h3>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Lightweight: Flask is a minimalist and un-opinionated framework that gives developers complete control over the structure of applications they develop.</li>
+                    <li>Flexibility: Is suitable for small to mid-sized projects where minimum overhead and control are desired.</li>
+                    <li>Community: Flask’s lightweight design and flexibility make it popular among developers with a strong focus on simplicity and extensibility.</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Limited Built-in Features: Unlike Django or NestJS, there is no built-in support for features like authentication, ORM, and many others in Flask.</li>
+                    <li>Scalability: Flask’s minimalist approach may require additional tooling and architectural changes to scale effectively for larger applications.</li>
+                    <li>Security: Lacks built-in security features, requiring developers to implement them manually.</li>
+                </ul>
+            </section>
+
+            <section id="conclusion">
+                <h3>Conclusion</h3>
+                <p>Choosing the right boilerplate depends on your specific project needs, team expertise, and long-term goals.</p>
+                <ul>
+                    <li>For enterprise-level scalable applications requiring extensive features written in TypeScript, consider using NestJS because it’s a robust framework.</li>
+                    <li>Express.js and Flask, on the other hand, are lightweight solutions that offer maximum flexibility but require more manual configuration setups, making them appropriate for smaller projects.</li>
+                    <li>Django, Spring Boot, and Laravel are suitable choices for frameworks with extensive built-in features ideally suited for teams within a particular ecosystem.</li>
+                    <li>Next.js and Ruby on Rails offer a balanced approach between backend development and structure, making them ideal for specific use cases like full-stack applications and quick startups.</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <div class="logo">
+                <img src="HNG Boilerplate-Logo.png" alt="HNG Boilerplate Logo">
+            </div>
+            <p>10111, Hornchurch, London, United Kingdom</p>
+        </div>
+        <div class="footer-right">
+            <div class="footer-navigation">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#" style="color: #f88d2b">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Feature updates</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-support">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Waiting list</a></li>
+                    <li><a href="#">Pricing Experience</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-legal">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and condition</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h4>Sign Up For Newsletter</h4>
+                <input type="email" placeholder="Enter Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <hr style=" color: #525252;">
+        <div class="footer-bottom">
+            <div class="social-media">
+                <a href="#"><img src="f.png" alt="Facebook"></a>
+                <a href="#"><img src="x.png" alt="Twitter"></a>
+                <a href="#"><img src="in.png" alt="LinkedIn"></a>
+                <a href="#"><img src="ig.png" alt="Instagram"></a>
+            </div>
+            <div>
+                <p style="color: #cbd5e1;">&copy; 2024 All Rights Reserved</p>
+            </div>
+            <div class="footer-bottom-right">
+                <div>
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Terms of Use</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
